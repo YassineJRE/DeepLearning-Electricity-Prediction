@@ -1,57 +1,47 @@
-# ⚡ Electricity Price Prediction | Deep Learning Model
+# Electricity Price Prediction - Deep Learning Model
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Library](https://img.shields.io/badge/Library-Keras%20%2F%20TensorFlow-orange.svg)](https://keras.io/)
-[![Status](https://img.shields.io/badge/Status-Completed-green.svg)]()
+[![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%2F%20Keras-orange.svg)](https://keras.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-## 📋 Overview
-This project implements a **Deep Learning solution** to forecast electricity prices based on historical data. By analyzing time-series patterns and consumption metrics, the model aims to predict future pricing trends, providing actionable insights for energy market analysis.
+## Project Overview
 
-This repository contains the complete source code, data processing pipelines, and a detailed analysis report.
+This project implements a **Deep Learning solution** designed to forecast electricity prices based on historical time-series data. By leveraging neural network architectures, the model analyzes consumption metrics and temporal patterns to predict future pricing trends, providing actionable insights for energy market analysis.
 
-## 📂 Repository Structure
-* **`Electricity_Price_Prediction.ipynb`**: The core Jupyter Notebook containing:
-  * Data Loading & Cleaning (Pandas)
-  * Exploratory Data Analysis (Visualization)
-  * Neural Network Construction (Keras)
-  * Model Training & Evaluation
-* **`Project_Report_Analysis.pdf`**: A comprehensive report detailing the methodology, mathematical concepts, and interpretation of results.
-* **`data/`**: Directory containing the training and testing datasets (`X_train.csv`, `y_train.csv`, etc.).
+## Repository Structure
 
-## 🛠 Tech Stack & Libraries
-This project relies on a robust Python ecosystem for Data Science:
-* **Deep Learning:** `Keras`, `TensorFlow` (Neural Network Architecture)
-* **Data Manipulation:** `Pandas`, `NumPy` (Preprocessing & Normalization)
-* **Visualization:** `Matplotlib`, `Seaborn` (Data insights & Loss curves)
-* **Machine Learning:** `Scikit-Learn` (Train/Test splitting, Metrics)
+* **`Electricity_Price_Prediction.ipynb`**: The core Jupyter Notebook containing the end-to-end pipeline:
+    * Data ingestion and cleaning (Pandas).
+    * Exploratory Data Analysis (EDA) and visualization.
+    * Neural Network construction and training (Keras/TensorFlow).
+    * Model evaluation and metric analysis.
+* **`Project_Report_Analysis.pdf`**: A comprehensive report detailing the methodology, mathematical foundations, and interpretation of the results.
+* **`data/`**: Directory containing the training and testing datasets.
 
-## ⚙️ Key Features
-1.  **Data Preprocessing Pipeline:**
-    * Handling missing values and outliers.
-    * Feature scaling/normalization to optimize Neural Network convergence.
+## Technical Stack
+
+This project relies on a standard Data Science ecosystem:
+* **Deep Learning:** `Keras`, `TensorFlow` (Multi-Layer Perceptron architecture).
+* **Data Manipulation:** `Pandas`, `NumPy` (Preprocessing & Normalization).
+* **Visualization:** `Matplotlib`, `Seaborn` (Loss curves & regression plots).
+* **Machine Learning:** `Scikit-Learn` (Train/Test splitting, Metrics).
+
+## Methodology & Features
+
+The solution follows a structured machine learning pipeline:
+
+1.  **Data Preprocessing:**
+    * Imputation of missing values and outlier detection.
+    * Feature scaling/normalization to optimize gradient descent convergence.
 2.  **Neural Network Architecture:**
-    * Implementation of a Multi-Layer Perceptron (MLP).
-    * Tuning of hyperparameters (Epochs, Batch Size, Learning Rate).
+    * Implementation of a Dense Neural Network (MLP).
+    * Hyperparameter tuning (Epochs, Batch Size, Learning Rate).
 3.  **Performance Evaluation:**
-    * Analysis of Loss Functions (MSE/MAE) to validate model accuracy.
-    * Visual comparison between Predicted vs. Actual prices.
+    * rigorous analysis using Loss Functions (MSE/MAE).
+    * Visual comparison between Predicted values vs. Actual market prices.
 
-## 🚀 How to Run
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/DeepLearning-Electricity-Prediction.git](https://github.com/YOUR_USERNAME/DeepLearning-Electricity-Prediction.git)
-    ```
-2.  **Install dependencies:**
-    ```bash
-    pip install pandas numpy tensorflow matplotlib seaborn scikit-learn
-    ```
-3.  **Launch Jupyter Notebook:**
-    ```bash
-    jupyter notebook "Electricity_Price_Prediction.ipynb"
-    ```
+## Getting Started
 
-## 📊 Results & Analysis
-The model demonstrates the ability to capture non-linear relationships in the electricity market data. For a deep dive into the mathematical models and detailed performance metrics, please refer to the **[Project Report (PDF)](./Project_Report_Analysis.pdf)** included in this repository.
-
----
-*Author: Yassine Jenjare*
+**1. Clone the repository**
+```bash
+git clone [https://github.com/YassineJRE/DeepLearning-Electricity-Prediction.git](https://github.com/YassineJRE/DeepLearning-Electricity-Prediction.git)
